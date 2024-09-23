@@ -5,7 +5,7 @@ import logging
 from enum import Enum
 from datetime import datetime
 from dotenv import find_dotenv, load_dotenv
-from langchain_ollama import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings 
 from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpointEmbeddings
 from langchain_openai import AzureOpenAIEmbeddings, OpenAIEmbeddings
 from starlette.middleware.base import BaseHTTPMiddleware
